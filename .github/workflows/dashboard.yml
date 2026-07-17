@@ -29,9 +29,12 @@ jobs:
 
       - name: Render panels
         env:
-          # METRICS_TOKEN (a classic PAT with read:user) also counts private
-          # contributions. Without it the built-in token works, public only.
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          # Both are passed deliberately. The script probes METRICS_TOKEN (a classic
+          # PAT with read:user, which also counts private contributions) and falls
+          # back to the built-in token if it is expired or revoked, so a stale secret
+          # degrades to public-only stats instead of failing the run.
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/build-dashboard.mjs
 
       - name: Commit if changed

@@ -5,7 +5,13 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const USER = process.env.DASHBOARD_USER ?? 'CoderJoeW'
-const TOKEN = process.env.GITHUB_TOKEN
+
+// METRICS_TOKEN (a PAT) additionally counts private contributions; GITHUB_TOKEN is
+// the workflow's built-in and only sees public data. Each candidate is probed before
+// use rather than picked for merely being set -- an expired PAT that still exists as
+// a secret must not shadow a working token. That failure is why the old
+// github-metrics.svg silently froze in 2023.
+let TOKEN = null
 
 // Curated feature list. Names here win; anything missing falls back to
 // top-starred non-forks. Edit this, not the README.
@@ -74,6 +80,34 @@ async function gql(query, variables = {}) {
   const body = await res.json()
   if (body.errors) throw new Error(`GraphQL: ${JSON.stringify(body.errors)}`)
   return body.data
+}
+
+async function resolveToken() {
+  const candidates = [
+    ['METRICS_TOKEN', process.env.METRICS_TOKEN],
+    ['GITHUB_TOKEN', process.env.GITHUB_TOKEN],
+  ].filter(([, value]) => value)
+  if (!candidates.length) {
+    throw new Error('No token. Try: GITHUB_TOKEN=$(gh auth token) node scripts/build-dashboard.mjs')
+  }
+  for (const [name, value] of candidates) {
+    const res = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${value}`,
+        'Content-Type': 'application/json',
+        'User-Agent': `${USER}-dashboard`,
+      },
+      body: JSON.stringify({ query: '{ viewer { login } }' }),
+    })
+    if (res.ok) {
+      TOKEN = value
+      console.log(`auth: ${name}${name === 'GITHUB_TOKEN' ? ' (public contributions only)' : ''}`)
+      return
+    }
+    console.warn(`auth: ${name} rejected with ${res.status}, trying next`)
+  }
+  throw new Error('Every candidate token was rejected.')
 }
 
 async function fetchProfile() {
@@ -425,10 +459,7 @@ ${links}
 }
 
 async function main() {
-  if (!TOKEN) {
-    console.error('GITHUB_TOKEN is required (try: GITHUB_TOKEN=$(gh auth token) node scripts/build-dashboard.mjs)')
-    process.exit(1)
-  }
+  await resolveToken()
   const syncedAt = new Date().toISOString().slice(0, 16).replace('T', ' ') + 'Z'
 
   const { user } = await fetchProfile()

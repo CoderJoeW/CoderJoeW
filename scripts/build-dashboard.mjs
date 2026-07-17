@@ -13,9 +13,6 @@ const USER = process.env.DASHBOARD_USER ?? 'CoderJoeW'
 // github-metrics.svg silently froze in 2023.
 let TOKEN = null
 
-// Curated feature list. Names here win; anything missing falls back to
-// top-starred non-forks. Edit this, not the README.
-const PINNED = ['POME', 'LightningTables', 'Atlas', 'Nitrado-Server-Manager']
 const TAGLINE = 'systems tooling · game infrastructure · database internals'
 
 const W = 880
@@ -118,7 +115,7 @@ async function fetchProfile() {
         bio
         createdAt
         followers { totalCount }
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
+        repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
           totalCount
           nodes {
             name url description stargazerCount isArchived pushedAt
@@ -189,13 +186,15 @@ function languageBreakdown(repos) {
   return top
 }
 
+// The four repos most recently pushed to, newest first. pushedAt tracks real
+// commit pushes, unlike updatedAt, which a stranger starring the repo bumps.
+// The profile repo excludes itself: this dashboard's own nightly bot commit would
+// otherwise pin it to the top forever and report a push the owner never made.
 function pickFeatured(repos) {
-  const byName = new Map(repos.map((r) => [r.name, r]))
-  const picked = PINNED.map((n) => byName.get(n)).filter(Boolean)
-  const fallback = repos
-    .filter((r) => !picked.includes(r) && r.description && !r.isArchived)
-    .sort((a, b) => b.stargazerCount - a.stargazerCount || new Date(b.pushedAt) - new Date(a.pushedAt))
-  return [...picked, ...fallback].slice(0, 4)
+  return [...repos]
+    .filter((r) => r.pushedAt && r.name.toLowerCase() !== USER.toLowerCase())
+    .sort((a, b) => new Date(b.pushedAt) - new Date(a.pushedAt))
+    .slice(0, 4)
 }
 
 const defs = `
@@ -431,7 +430,7 @@ function renderProjects(repos) {
     .join('')
 
   return shell(h, `${panelTitle(20, 28, 'SHIPPING', C.amber)}
-    <text x="${W - 20}" y="28" font-size="10" fill="${C.faint}" text-anchor="end">SELECTED WORK</text>
+    <text x="${W - 20}" y="28" font-size="10" fill="${C.faint}" text-anchor="end">LATEST PUSHES</text>
     ${cards}`)
 }
 

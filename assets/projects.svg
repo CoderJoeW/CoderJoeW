@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="348" viewBox="0 0 880 348" role="img">
+  
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#101a24" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4cc9f0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4cc9f0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="60%" stop-color="#4cc9f0"/>
+      <stop offset="100%" stop-color="#8ab4ff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace; }
+    @keyframes blink { 0%, 45% { opacity: 1 } 50%, 95% { opacity: .15 } 100% { opacity: 1 } }
+    @keyframes sweep { from { transform: translateY(-70px) } to { transform: translateY(var(--h, 200px)) } }
+    .blink { animation: blink 2.4s steps(1) infinite; }
+    
+  </style>
+  <rect width="880" height="348" rx="10" fill="#05080d"/>
+  <rect width="880" height="348" rx="10" fill="url(#grid)" opacity="0.55"/>
+  <rect x="20" y="19" width="3" height="12" fill="#ffa94d"/>
+   <text x="29" y="28" font-size="11" letter-spacing="2.2" fill="#6b8299">SHIPPING</text>
+    <text x="860" y="28" font-size="10" fill="#3d4d5c" text-anchor="end">SELECTED WORK</text>
+    <g>
+        <rect x="20" y="48" width="413" height="132" rx="7" fill="#0a0f16" stroke="#1b2734"/>
+        <rect x="20" y="48" width="413" height="2.5" rx="1" fill="#00e5a0" opacity="0.5"/>
+        <text x="36" y="80" font-size="14.5" font-weight="700" fill="#d5dfe9">POME</text>
+        <text x="417" y="78" font-size="11" fill="#ffa94d" text-anchor="end">★ 22</text><text x="36" y="114" font-size="11" fill="#6b8299">An SSH client with the power of putty and the</text><text x="36" y="130" font-size="11" fill="#6b8299">convenience of chrome</text><circle cx="40" cy="162" r="4" fill="#178600"/>
+           <text x="51" y="166" font-size="10" fill="#3d4d5c">C#</text>
+        <text x="417" y="166" font-size="9.5" fill="#3d4d5c" text-anchor="end">3y ago</text>
+      </g><g>
+        <rect x="447" y="48" width="413" height="132" rx="7" fill="#0a0f16" stroke="#1b2734"/>
+        <rect x="447" y="48" width="413" height="2.5" rx="1" fill="#00e5a0" opacity="0.5"/>
+        <text x="463" y="80" font-size="14.5" font-weight="700" fill="#d5dfe9">LightningTables</text>
+        <text x="844" y="78" font-size="11" fill="#ffa94d" text-anchor="end">★ 1</text><text x="463" y="114" font-size="11" fill="#6b8299">Automated materialized views for MariaDB that</text><text x="463" y="130" font-size="11" fill="#6b8299">eliminate summary tables and speed up queries.</text><circle cx="467" cy="162" r="4" fill="#A97BFF"/>
+           <text x="478" y="166" font-size="10" fill="#3d4d5c">Kotlin</text>
+        <text x="844" y="166" font-size="9.5" fill="#3d4d5c" text-anchor="end">4mo ago</text>
+      </g><g>
+        <rect x="20" y="194" width="413" height="132" rx="7" fill="#0a0f16" stroke="#1b2734"/>
+        <rect x="20" y="194" width="413" height="2.5" rx="1" fill="#00e5a0" opacity="0.5"/>
+        <text x="36" y="226" font-size="14.5" font-weight="700" fill="#d5dfe9">Atlas</text>
+        <text x="417" y="224" font-size="11" fill="#ffa94d" text-anchor="end">★ 1</text><text x="36" y="260" font-size="11" fill="#6b8299">A Minecraft paper plugin implementing</text><text x="36" y="276" font-size="11" fill="#6b8299">Automation, Transport, Logistics &amp; Assembly</text><text x="36" y="292" font-size="11" fill="#6b8299">System</text><circle cx="40" cy="308" r="4" fill="#3572A5"/>
+           <text x="51" y="312" font-size="10" fill="#3d4d5c">Python</text>
+        <text x="417" y="312" font-size="9.5" fill="#3d4d5c" text-anchor="end">26d ago</text>
+      </g><g>
+        <rect x="447" y="194" width="413" height="132" rx="7" fill="#0a0f16" stroke="#1b2734"/>
+        <rect x="447" y="194" width="413" height="2.5" rx="1" fill="#00e5a0" opacity="0.5"/>
+        <text x="463" y="226" font-size="14.5" font-weight="700" fill="#d5dfe9">Nitrado-Server-Manager</text>
+        <text x="463" y="260" font-size="11" fill="#6b8299">This exist because managing clusters in</text><text x="463" y="276" font-size="11" fill="#6b8299">nitrado is a needlessly painful experience</text><circle cx="467" cy="308" r="4" fill="#A97BFF"/>
+           <text x="478" y="312" font-size="10" fill="#3d4d5c">Kotlin</text>
+        <text x="844" y="312" font-size="9.5" fill="#3d4d5c" text-anchor="end">today</text>
+      </g>
+  <rect x="0.5" y="0.5" width="879" height="347" rx="10" fill="none" stroke="#1b2734"/>
+</svg>

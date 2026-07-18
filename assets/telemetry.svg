@@ -31,12 +31,12 @@
     <g>
         <rect x="20" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
         <rect x="20" y="46" width="3" height="76" rx="1.5" fill="#00e5a0"/>
-        <text x="36" y="88" font-size="27" font-weight="700" fill="#d5dfe9">42</text>
+        <text x="36" y="88" font-size="27" font-weight="700" fill="#d5dfe9">43</text>
         <text x="36" y="108" font-size="9" letter-spacing="1.4" fill="#3d4d5c">REPOS AUTHORED</text>
       </g><g>
         <rect x="233" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
         <rect x="233" y="46" width="3" height="76" rx="1.5" fill="#4cc9f0"/>
-        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,367</text>
+        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,369</text>
         <text x="249" y="108" font-size="9" letter-spacing="1.4" fill="#3d4d5c">COMMITS ALL TIME</text>
       </g><g>
         <rect x="446" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>

@@ -36,7 +36,7 @@
       </g><g>
         <rect x="233" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
         <rect x="233" y="46" width="3" height="76" rx="1.5" fill="#4cc9f0"/>
-        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,377</text>
+        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,385</text>
         <text x="249" y="108" font-size="9" letter-spacing="1.4" fill="#3d4d5c">COMMITS ALL TIME</text>
       </g><g>
         <rect x="446" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
@@ -57,21 +57,21 @@
       <animate attributeName="width" from="0" to="840" dur="1.3s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect></clipPath>
     <rect x="20" y="176" width="840" height="16" rx="3" fill="#0d141d"/>
-    <g clip-path="url(#barclip)"><rect x="20" y="176" width="307.98267827556737" height="16" fill="#178600"/><rect x="327.98267827556737" y="176" width="298.9153430420347" height="16" fill="#4F5D95"/><rect x="626.8980213176021" y="176" width="77.80932201412257" height="16" fill="#A97BFF"/><rect x="704.7073433317247" y="176" width="75.86667575469569" height="16" fill="#f1e05a"/><rect x="780.5740190864204" y="176" width="22.99017112242335" height="16" fill="#89e051"/><rect x="803.5641902088438" y="176" width="12.879556096617057" height="16" fill="#3572A5"/><rect x="816.4437463054609" y="176" width="43.55625369453943" height="16" fill="#3d4d5c"/></g>
+    <g clip-path="url(#barclip)"><rect x="20" y="176" width="307.98267827556737" height="16" fill="#178600"/><rect x="327.98267827556737" y="176" width="298.91534304203475" height="16" fill="#4F5D95"/><rect x="626.8980213176021" y="176" width="89.93017022287228" height="16" fill="#A97BFF"/><rect x="716.8281915404743" y="176" width="76.90050359364307" height="16" fill="#f1e05a"/><rect x="793.7286951341174" y="176" width="12.87955609661706" height="16" fill="#3572A5"/><rect x="806.6082512307345" y="176" width="12.473397175469756" height="16" fill="#e34c26"/><rect x="819.0816484062043" y="176" width="40.91835159379598" height="16" fill="#3d4d5c"/></g>
     <circle cx="24" cy="224" r="4" fill="#178600"/>
         <text x="35" y="228" font-size="11" fill="#d5dfe9">C#</text>
         <text x="216" y="228" font-size="11" fill="#6b8299" text-anchor="end">36.7%</text><circle cx="238" cy="224" r="4" fill="#4F5D95"/>
         <text x="249" y="228" font-size="11" fill="#d5dfe9">PHP</text>
         <text x="430" y="228" font-size="11" fill="#6b8299" text-anchor="end">35.6%</text><circle cx="452" cy="224" r="4" fill="#A97BFF"/>
         <text x="463" y="228" font-size="11" fill="#d5dfe9">Kotlin</text>
-        <text x="644" y="228" font-size="11" fill="#6b8299" text-anchor="end">9.3%</text><circle cx="666" cy="224" r="4" fill="#f1e05a"/>
+        <text x="644" y="228" font-size="11" fill="#6b8299" text-anchor="end">10.7%</text><circle cx="666" cy="224" r="4" fill="#f1e05a"/>
         <text x="677" y="228" font-size="11" fill="#d5dfe9">JavaScript</text>
-        <text x="858" y="228" font-size="11" fill="#6b8299" text-anchor="end">9.0%</text><circle cx="24" cy="248" r="4" fill="#89e051"/>
-        <text x="35" y="252" font-size="11" fill="#d5dfe9">Shell</text>
-        <text x="216" y="252" font-size="11" fill="#6b8299" text-anchor="end">2.7%</text><circle cx="238" cy="248" r="4" fill="#3572A5"/>
-        <text x="249" y="252" font-size="11" fill="#d5dfe9">Python</text>
+        <text x="858" y="228" font-size="11" fill="#6b8299" text-anchor="end">9.2%</text><circle cx="24" cy="248" r="4" fill="#3572A5"/>
+        <text x="35" y="252" font-size="11" fill="#d5dfe9">Python</text>
+        <text x="216" y="252" font-size="11" fill="#6b8299" text-anchor="end">1.5%</text><circle cx="238" cy="248" r="4" fill="#e34c26"/>
+        <text x="249" y="252" font-size="11" fill="#d5dfe9">HTML</text>
         <text x="430" y="252" font-size="11" fill="#6b8299" text-anchor="end">1.5%</text><circle cx="452" cy="248" r="4" fill="#3d4d5c"/>
         <text x="463" y="252" font-size="11" fill="#d5dfe9">other</text>
-        <text x="644" y="252" font-size="11" fill="#6b8299" text-anchor="end">5.2%</text>
+        <text x="644" y="252" font-size="11" fill="#6b8299" text-anchor="end">4.9%</text>
   <rect x="0.5" y="0.5" width="879" height="291" rx="10" fill="none" stroke="#1b2734"/>
 </svg>

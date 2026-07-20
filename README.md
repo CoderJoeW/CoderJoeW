@@ -10,9 +10,9 @@
 
 ![Shipping](assets/projects.svg)
 
-[`floodgate`](https://github.com/CoderJoeW/floodgate) · [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas) · [`LightningTables`](https://github.com/CoderJoeW/LightningTables)
+[`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas) · [`LightningTables`](https://github.com/CoderJoeW/LightningTables) · [`Warpstones`](https://github.com/CoderJoeW/Warpstones)
 
-<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-07-19 06:45Z.</sub>
+<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-07-20 07:33Z.</sub>
 
 </div>
 <!-- dashboard:end -->

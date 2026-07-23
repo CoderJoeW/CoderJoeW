@@ -33,7 +33,7 @@
         <text x="36" y="80" font-size="14.5" font-weight="700" fill="#d5dfe9">Nitrado-Server-Manager</text>
         <text x="36" y="114" font-size="11" fill="#6b8299">This exist because managing clusters in</text><text x="36" y="130" font-size="11" fill="#6b8299">nitrado is a needlessly painful experience</text><circle cx="40" cy="162" r="4" fill="#A97BFF"/>
            <text x="51" y="166" font-size="10" fill="#3d4d5c">Kotlin</text>
-        <text x="417" y="166" font-size="9.5" fill="#3d4d5c" text-anchor="end">2d ago</text>
+        <text x="417" y="166" font-size="9.5" fill="#3d4d5c" text-anchor="end">3d ago</text>
       </g><g>
         <rect x="447" y="48" width="413" height="132" rx="7" fill="#0a0f16" stroke="#1b2734"/>
         <rect x="447" y="48" width="413" height="2.5" rx="1" fill="#00e5a0" opacity="0.5"/>

@@ -12,7 +12,7 @@
 
 [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas) · [`LightningTables`](https://github.com/CoderJoeW/LightningTables) · [`Warpstones`](https://github.com/CoderJoeW/Warpstones)
 
-<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-07-22 06:44Z.</sub>
+<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-07-23 06:42Z.</sub>
 
 </div>
 <!-- dashboard:end -->

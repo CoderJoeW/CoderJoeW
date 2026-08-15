@@ -10,9 +10,9 @@
 
 ![Shipping](assets/projects.svg)
 
-[`POME`](https://github.com/CoderJoeW/POME) · [`rigs-and-pools-prototype`](https://github.com/CoderJoeW/rigs-and-pools-prototype) · [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas)
+[`rigs-and-pools-prototype`](https://github.com/CoderJoeW/rigs-and-pools-prototype) · [`POME`](https://github.com/CoderJoeW/POME) · [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas)
 
-<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-08-14 05:48Z.</sub>
+<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-08-15 04:50Z.</sub>
 
 </div>
 <!-- dashboard:end -->

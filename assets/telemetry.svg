@@ -36,7 +36,7 @@
       </g><g>
         <rect x="233" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
         <rect x="233" y="46" width="3" height="76" rx="1.5" fill="#4cc9f0"/>
-        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,416</text>
+        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,417</text>
         <text x="249" y="108" font-size="9" letter-spacing="1.4" fill="#3d4d5c">COMMITS ALL TIME</text>
       </g><g>
         <rect x="446" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
@@ -57,7 +57,7 @@
       <animate attributeName="width" from="0" to="840" dur="1.3s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect></clipPath>
     <rect x="20" y="176" width="840" height="16" rx="3" fill="#0d141d"/>
-    <g clip-path="url(#barclip)"><rect x="20" y="176" width="307.98267827556737" height="16" fill="#178600"/><rect x="327.98267827556737" y="176" width="298.9153430420347" height="16" fill="#4F5D95"/><rect x="626.8980213176021" y="176" width="90.78165919862528" height="16" fill="#f1e05a"/><rect x="717.6796805162273" y="176" width="73.76330727813544" height="16" fill="#A97BFF"/><rect x="791.4429877943628" y="176" width="12.879556096617057" height="16" fill="#3572A5"/><rect x="804.3225438909799" y="176" width="12.66065959872544" height="16" fill="#e34c26"/><rect x="816.9832034897054" y="176" width="43.016796510294895" height="16" fill="#3d4d5c"/></g>
+    <g clip-path="url(#barclip)"><rect x="20" y="176" width="307.98267827556737" height="16" fill="#178600"/><rect x="327.98267827556737" y="176" width="298.9153430420347" height="16" fill="#4F5D95"/><rect x="626.8980213176021" y="176" width="90.56577902381991" height="16" fill="#f1e05a"/><rect x="717.463800341422" y="176" width="73.76330727813544" height="16" fill="#A97BFF"/><rect x="791.2271076195575" y="176" width="12.879556096617057" height="16" fill="#3572A5"/><rect x="804.1066637161746" y="176" width="12.661196734865024" height="16" fill="#e34c26"/><rect x="816.7678604510396" y="176" width="43.23213954896066" height="16" fill="#3d4d5c"/></g>
     <circle cx="24" cy="224" r="4" fill="#178600"/>
         <text x="35" y="228" font-size="11" fill="#d5dfe9">C#</text>
         <text x="216" y="228" font-size="11" fill="#6b8299" text-anchor="end">36.7%</text><circle cx="238" cy="224" r="4" fill="#4F5D95"/>

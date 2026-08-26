@@ -10,9 +10,9 @@
 
 ![Shipping](assets/projects.svg)
 
-[`rigs-and-pools-prototype`](https://github.com/CoderJoeW/rigs-and-pools-prototype) · [`meal-planner`](https://github.com/CoderJoeW/meal-planner) · [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas)
+[`meal-planner`](https://github.com/CoderJoeW/meal-planner) · [`rigs-and-pools-prototype`](https://github.com/CoderJoeW/rigs-and-pools-prototype) · [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas)
 
-<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-08-25 04:56Z.</sub>
+<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-08-26 04:58Z.</sub>
 
 </div>
 <!-- dashboard:end -->

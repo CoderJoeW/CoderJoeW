@@ -12,7 +12,7 @@
 
 [`rigs-and-pools-prototype`](https://github.com/CoderJoeW/rigs-and-pools-prototype) · [`Nitrado-Server-Manager`](https://github.com/CoderJoeW/Nitrado-Server-Manager) · [`Atlas`](https://github.com/CoderJoeW/Atlas) · [`LightningTables`](https://github.com/CoderJoeW/LightningTables)
 
-<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-08-28 16:42Z.</sub>
+<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-08-29 11:10Z.</sub>
 
 </div>
 <!-- dashboard:end -->

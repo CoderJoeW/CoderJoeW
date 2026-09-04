@@ -36,12 +36,12 @@
       </g><g>
         <rect x="233" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
         <rect x="233" y="46" width="3" height="76" rx="1.5" fill="#4cc9f0"/>
-        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,573</text>
+        <text x="249" y="88" font-size="27" font-weight="700" fill="#d5dfe9">2,430</text>
         <text x="249" y="108" font-size="9" letter-spacing="1.4" fill="#3d4d5c">COMMITS ALL TIME</text>
       </g><g>
         <rect x="446" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
         <rect x="446" y="46" width="3" height="76" rx="1.5" fill="#ffa94d"/>
-        <text x="462" y="88" font-size="27" font-weight="700" fill="#d5dfe9">33</text>
+        <text x="462" y="88" font-size="27" font-weight="700" fill="#d5dfe9">32</text>
         <text x="462" y="108" font-size="9" letter-spacing="1.4" fill="#3d4d5c">FOLLOWERS</text>
       </g><g>
         <rect x="659" y="46" width="201" height="76" rx="6" fill="#0d141d" stroke="#1b2734"/>
@@ -57,7 +57,7 @@
       <animate attributeName="width" from="0" to="840" dur="1.3s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect></clipPath>
     <rect x="20" y="176" width="840" height="16" rx="3" fill="#0d141d"/>
-    <g clip-path="url(#barclip)"><rect x="20" y="176" width="307.2185470154246" height="16" fill="#4F5D95"/><rect x="327.2185470154246" y="176" width="294.6472917853071" height="16" fill="#7355dd"/><rect x="621.8658388007317" y="176" width="88.8456544465996" height="16" fill="#A97BFF"/><rect x="710.7114932473313" y="176" width="78.03752789701173" height="16" fill="#f1e05a"/><rect x="788.749021144343" y="176" width="18.730330676150388" height="16" fill="#3178c6"/><rect x="807.4793518204934" y="176" width="11.565442980099876" height="16" fill="#e34c26"/><rect x="819.0447948005933" y="176" width="40.95520519940702" height="16" fill="#3d4d5c"/></g>
+    <g clip-path="url(#barclip)"><rect x="20" y="176" width="307.2185470154245" height="16" fill="#4F5D95"/><rect x="327.2185470154245" y="176" width="294.64729178530706" height="16" fill="#7355dd"/><rect x="621.8658388007316" y="176" width="88.85543734990173" height="16" fill="#A97BFF"/><rect x="710.7212761506333" y="176" width="78.03752789701171" height="16" fill="#f1e05a"/><rect x="788.7588040476451" y="176" width="18.73033067615038" height="16" fill="#3178c6"/><rect x="807.4891347237955" y="176" width="11.565442980099872" height="16" fill="#e34c26"/><rect x="819.0545777038953" y="176" width="40.94542229610485" height="16" fill="#3d4d5c"/></g>
     <circle cx="24" cy="224" r="4" fill="#4F5D95"/>
         <text x="35" y="228" font-size="11" fill="#d5dfe9">PHP</text>
         <text x="216" y="228" font-size="11" fill="#6b8299" text-anchor="end">36.6%</text><circle cx="238" cy="224" r="4" fill="#7355dd"/>

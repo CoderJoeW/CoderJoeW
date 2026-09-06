@@ -12,7 +12,7 @@
 
 [`Atlas`](https://github.com/CoderJoeW/Atlas) · [`rigs-and-pools-prototype`](https://github.com/CoderJoeW/rigs-and-pools-prototype) · [`LightningTables`](https://github.com/CoderJoeW/LightningTables) · [`Warpstones`](https://github.com/CoderJoeW/Warpstones)
 
-<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-09-05 08:23Z.</sub>
+<sub>Every panel above is an SVG generated from live GitHub API data by [a workflow in this repo](.github/workflows/dashboard.yml) — no third-party stat services. Last sync 2026-09-06 08:42Z.</sub>
 
 </div>
 <!-- dashboard:end -->
